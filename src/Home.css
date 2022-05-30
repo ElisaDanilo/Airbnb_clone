@@ -1,0 +1,30 @@
+.home {
+    margin-top: 10px;
+}
+
+.home_section {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home_experience_section {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+h2 {
+    display: flex;
+    margin-left: 40px;
+    color: #FF5A5F;
+}
+

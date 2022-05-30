@@ -1,0 +1,70 @@
+.banner {
+    height: 50vh;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.banner_info {
+    margin-top: 10px;
+    background: url("../assets/img/london_skyline.jpg") center center;
+    background-size: 100% 100%;
+}
+
+.banner_info_text {
+    background-color: black;
+    color: white;
+    padding: 25vh 50px 40px 50px;
+    width: 300px;
+}
+
+.banner_search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    border-color: #FF5A5F;
+    border-width: 2px;
+    color: #FF5A5F;
+}
+
+.banner_searchButton {
+    background-color: white !important;
+    color: #FF5A5F !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    cursor: pointer;
+    border-color: #FF5A5F;
+    border-radius: 10px;
+    padding: 3px;
+    width: 100px;
+}
+
+.banner_searchButton:hover {
+    background-color: #FF5A5F !important;
+    color: white !important;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.banner_info_text > button {
+    background-color: #FF5A5F;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+
+.banner_info_button:hover {
+    background-color: white;
+    color:#FF5A5F;
+    cursor: pointer;
+}
+
+.banner_info_text > h5 {
+     margin-top: 10px;
+}
